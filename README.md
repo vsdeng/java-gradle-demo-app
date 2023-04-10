@@ -13,7 +13,7 @@ afwef
 ```bash
 docker run --name vulnerable-app --rm -p 8080:8080 ghcr.io/christophetd/log4shell-vulnerable-aaweapp@sha256:6f88430688108e512f7405ac3c73d47f5c370780b94182854ea2cddc6bd59929
 ```
-aefawefawef
+aefawefawefasasa
 ## Exploitation steps
 
 *Note: This is highly inspired from the original [LunaSec advisory](https://www.lunasec.io/docs/blog/log4j-zero-day/). **Run at your own risk, preferably in a VM in a sandbox environment**.*
